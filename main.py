@@ -34,8 +34,8 @@ REDDIT_USER_AGENT = 'RedditScraper:v1.0 (by /u/pranit3112)'
 
 reddit = praw.Reddit(client_id=REDDIT_CLIENT_ID, client_secret=REDDIT_CLIENT_SECRET, user_agent=REDDIT_USER_AGENT)
 
-POST_LIMIT_PER_SUBREDDIT = 6000
-TOTAL_THRESHOLD = 200000
+POST_LIMIT_PER_SUBREDDIT = 60000
+TOTAL_THRESHOLD = 2000000
 
 OUTPUT_SCRAPED_FILE = "./data/scraped_posts.json"
 OUTPUT_FILTERED_FILE = "./data/filtered_posts.json"
